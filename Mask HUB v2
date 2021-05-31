@@ -1,0 +1,227 @@
+-- Mask HUB
+-- Version: 2.0
+-- Created by Maskely
+
+-- Instances:
+
+local Main = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local MadCity = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local JailBreak = Instance.new("ImageButton")
+local UICorner_2 = Instance.new("UICorner")
+local Arsenal = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
+local Murder = Instance.new("ImageButton")
+local UICorner_4 = Instance.new("UICorner")
+local Admin = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Dex = Instance.new("TextButton")
+local Owl = Instance.new("TextButton")
+local Dark = Instance.new("TextButton")
+
+--Properties:
+
+Main.Name = "Main"
+Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Main
+MainFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+MainFrame.BorderColor3 = Color3.fromRGB(48, 48, 48)
+MainFrame.Size = UDim2.new(0, 134, 0, 314)
+
+Frame.Parent = MainFrame
+Frame.BackgroundColor3 = Color3.fromRGB(181, 181, 181)
+Frame.BorderColor3 = Color3.fromRGB(181, 181, 181)
+Frame.Position = UDim2.new(0, 0, 0.169738501, 0)
+Frame.Size = UDim2.new(0, 134, 0, 7)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel.Position = UDim2.new(0, 0, -7.71656084, 0)
+TextLabel.Size = UDim2.new(0, 134, 0, 54)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Mask HUB v2"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(48, 48, 48)
+ScrollingFrame.Position = UDim2.new(0, 0, 0.192031354, 0)
+ScrollingFrame.Size = UDim2.new(0, 134, 0, 253)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 7, 0)
+ScrollingFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+ScrollingFrame.ScrollBarThickness = 10
+
+MadCity.Name = "MadCity"
+MadCity.Parent = ScrollingFrame
+MadCity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadCity.Position = UDim2.new(0.12686567, 0, 0.00609261822, 0)
+MadCity.Size = UDim2.new(0, 100, 0, 100)
+MadCity.Image = "rbxassetid://3073069860"
+MadCity.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Maskely/Maskely/main/MadLads%20v7'))()
+end)
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = MadCity
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = ScrollingFrame
+JailBreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak.Position = UDim2.new(0.12686567, 0, 0.0564819761, 0)
+JailBreak.Size = UDim2.new(0, 100, 0, 100)
+JailBreak.Image = "rbxassetid://1377563291"
+JailBreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/piglex9/jailbreak-ice-tray/main/Main.lua'))()
+end)
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = JailBreak
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = ScrollingFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.12686567, 0, 0.107437387, 0)
+Arsenal.Size = UDim2.new(0, 100, 0, 100)
+Arsenal.Image = "rbxassetid://5217845887"
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Maskely/Maskely/main/Arsenal%20Hack'))()
+end)
+
+UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_3.Parent = Arsenal
+
+Murder.Name = "Murder"
+Murder.Parent = ScrollingFrame
+Murder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Murder.Position = UDim2.new(0.12686567, 0, 0.157482877, 0)
+Murder.Size = UDim2.new(0, 100, 0, 100)
+Murder.Image = "rbxassetid://2655652534"
+Murder.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+UICorner_4.CornerRadius = UDim.new(0, 10)
+UICorner_4.Parent = Murder
+
+Admin.Name = "Admin"
+Admin.Parent = ScrollingFrame
+Admin.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Admin.BorderColor3 = Color3.fromRGB(48, 48, 48)
+Admin.Position = UDim2.new(0.12686567, 0, 0.236645743, 0)
+Admin.Size = UDim2.new(0, 100, 0, 100)
+Admin.Image = "rbxassetid://5953606450"
+Admin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_5.CornerRadius = UDim.new(0.400000006, 0)
+UICorner_5.Parent = Admin
+
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel_2.BorderColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel_2.Position = UDim2.new(0, 0, 0.209281161, 0)
+TextLabel_2.Size = UDim2.new(0, 134, 0, 54)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "Some Scripts"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 20.000
+
+Dex.Name = "Dex"
+Dex.Parent = ScrollingFrame
+Dex.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Dex.BorderColor3 = Color3.fromRGB(48, 48, 48)
+Dex.Position = UDim2.new(0.12686567, 0, 0.288444042, 0)
+Dex.Size = UDim2.new(0, 100, 0, 50)
+Dex.Font = Enum.Font.SciFi
+Dex.Text = "Dex Explorer"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextSize = 18.000
+Dex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Maskely/Maskely/main/Dark%20Dex'))()
+end)
+
+Owl.Name = "Owl"
+Owl.Parent = ScrollingFrame
+Owl.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Owl.BorderColor3 = Color3.fromRGB(48, 48, 48)
+Owl.Position = UDim2.new(0.12686567, 0, 0.318926305, 0)
+Owl.Size = UDim2.new(0, 100, 0, 50)
+Owl.Font = Enum.Font.SciFi
+Owl.Text = "Owl HUB"
+Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
+Owl.TextSize = 18.000
+Owl.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+Dark.Name = "Dark"
+Dark.Parent = ScrollingFrame
+Dark.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Dark.BorderColor3 = Color3.fromRGB(48, 48, 48)
+Dark.Position = UDim2.new(0.12686567, 0, 0.352138311, 0)
+Dark.Size = UDim2.new(0, 100, 0, 50)
+Dark.Font = Enum.Font.SciFi
+Dark.Text = "Dark HUB"
+Dark.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dark.TextSize = 18.000
+Dark.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/yCrBkPaY'), true))()
+end)
+
+-- Scripts:
+
+local function OXYX_fake_script() -- MainFrame.Draggable 
+	local script = Instance.new('LocalScript', MainFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(OXYX_fake_script)()
